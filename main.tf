@@ -1,3 +1,4 @@
+#az login --use-device-code
 
 # 1. Create Resource Group
 resource "azurerm_resource_group" "rg" {
