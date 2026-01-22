@@ -106,7 +106,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "vmss" {
 
 
 # --------------------
-# Application Gateway (WAF)
+# Application Gateway
 # --------------------
 resource "azurerm_application_gateway" "appgw" {
   name                = "appgw-veera-tf"
